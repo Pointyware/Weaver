@@ -1,3 +1,4 @@
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 pluginManagement {
     repositories {
         google {
@@ -22,3 +23,4 @@ dependencyResolutionManagement {
 rootProject.name = "Weaver"
 
 include(":core")
+include(":example")
