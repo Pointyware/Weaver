@@ -17,6 +17,8 @@ kotlin {
                 implementation(libs.koin.core)
                 implementation(libs.koin.coroutines)
 
+                implementation(libs.kotlinx.html.jvm)
+
                 implementation(libs.kotlinx.serialization.json)
             }
         }
